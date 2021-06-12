@@ -1,4 +1,4 @@
-package etcd
+package consul
 
 import (
 	_ "dubbo.apache.org/dubbo-go/v3/cluster/cluster_impl"
@@ -7,6 +7,6 @@ import (
 	_ "dubbo.apache.org/dubbo-go/v3/config_center/zookeeper"
 	_ "dubbo.apache.org/dubbo-go/v3/filter/filter_impl"
 	_ "dubbo.apache.org/dubbo-go/v3/protocol/dubbo"
-	_ "dubbo.apache.org/dubbo-go/v3/registry/etcdv3"
+	_ "dubbo.apache.org/dubbo-go/v3/registry/consul"
 	_ "dubbo.apache.org/dubbo-go/v3/registry/protocol"
 )
